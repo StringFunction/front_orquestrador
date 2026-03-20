@@ -9,13 +9,6 @@ export default function header(){
             <nav>
                     <div id="horizontal" className={styles.horizontal}>
                         <div id="Logo">Logo da empresa</div>
-                        <div>
-                       
-                            <div>
-                                <p>BUTTOM DE SAIR</p>
-                            </div>
-                        </div>
-
                     </div>
                     <div id="vertical" className={styles.Vertical}>
                         <div>
@@ -23,6 +16,7 @@ export default function header(){
                             <p>Matricula : 00000</p>
                             <p>Nome: Clecio</p>
                         </div>
+
                         <div>
                             <ul>
                                 <li>HOME</li>
@@ -32,6 +26,7 @@ export default function header(){
                                 <li>HOME</li>
                             </ul>
                         </div>
+                        <div><button>Sair</button></div>
                         
                         
 
