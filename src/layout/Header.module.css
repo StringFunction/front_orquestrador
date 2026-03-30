@@ -1,7 +1,7 @@
 .Vertical{
-    background: black;
-    width: 15%;
-    height: 120vh;
+    background: rgb(51, 51, 51);
+    width: 220px;
+    height: 150VH;
     top: 0;
     display: flex;
     position: absolute;
@@ -18,16 +18,99 @@
 }
 
 .horizontal{
-    background: black;
+    background: rgb(31, 30, 30);
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(253, 249, 249);
     position: relative;
 
 }
-.logo_empresa{
+.usuario{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    padding: 1px;
+}
+.logo_usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 12%;
+    width: 50px;
+    height: 50px;
+    padding: 1px;
 
+
+        
+
+}
+.logo{
+   font-size: 40px; 
+
+}
+.menu_pai{
+    position: relative;
+   
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.lista_itens{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.item{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 5px;
+    
+ 
+}
+.item:hover{
+    cursor: pointer;
+    background: rgb(70, 70, 70);
+}
+.card_btn_sair{
+    width: 100%;
+
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_sair{
+    width: 100%;
+    border: none;
+    background: none;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+}
+.btn_sair:hover{
+    cursor: pointer;
+    background: rgb(70, 70, 70);
 }
