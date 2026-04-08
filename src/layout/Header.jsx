@@ -26,7 +26,7 @@ export default function header(){
                             </div>
                    
                         </div>
-                       
+                       {/* ----------------------------------------------------- */}
                         <div className={styles.menu_pai}>
                             <ul className={styles.lista_itens}>
                                 <li className={styles.item}><IoHome />HOME</li>
@@ -36,6 +36,7 @@ export default function header(){
                                 <li className={styles.item}>HOME</li>
                             </ul>
                         </div>
+                        {/* ----------------------------------------------------- */}
                         <div className={styles.card_btn_sair}>
                             <button className={styles.btn_sair}>Sair</button>
                         </div>
