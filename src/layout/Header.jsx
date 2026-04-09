@@ -4,7 +4,7 @@ import { FaTachometerAlt } from "react-icons/fa";
 import { IoHome } from "react-icons/io5";
 import { FaRobot } from "react-icons/fa6";
 import { FaRegListAlt } from "react-icons/fa";
-
+import {Vertical,Usuario} from "./Header.style"
 
 
 
@@ -15,8 +15,8 @@ export default function header(){
                     {/* <div id="horizontal" className={styles.horizontal}>
                         <div id="Logo">Logo da empresa</div>
                     </div> */}
-                    <div id="vertical" className={styles.Vertical}>
-                        <div className={styles.usuario}>
+                    <div id="vertical" className={Vertical}>
+                        <div className={Usuario}>
                             <div className={styles.logo_usuario}>
                                 <p className={styles.logo}>{<BsFillPersonFill />}</p>
                             </div>
