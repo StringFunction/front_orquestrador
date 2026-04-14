@@ -5,6 +5,7 @@ import { IoHome } from "react-icons/io5";
 import { FaRobot } from "react-icons/fa6";
 import { FaRegListAlt } from "react-icons/fa";
 import {Vertical,Usuario} from "./Header.style"
+import { Link } from "react-router-dom";
 
 
 
@@ -29,16 +30,15 @@ export default function header(){
                        {/* ----------------------------------------------------- */}
                         <div className={styles.menu_pai}>
                             <ul className={styles.lista_itens}>
-                                <li className={styles.item}><IoHome />HOME</li>
-                                <li className={styles.item}><FaTachometerAlt />DASHBOARD</li>
-                                <li className={styles.item}><FaRobot /> RPA</li>
-                                <li className={styles.item}><FaRegListAlt /> AGENDAMENTO</li>
-                                <li className={styles.item}>HOME</li>
+                                <li className="w-full h-full"><Link to="/" className={styles.item}><IoHome /> Home</Link></li>
+                                <li className="w-full h-full"><Link to="/Dashboard" className={styles.item}> <FaTachometerAlt /> DASHBOARD</Link></li>
+                                <li className="w-full h-full"><Link to="/Rpa" className={styles.item}><FaRobot /> RPA</Link></li>
+                                <li className="w-full h-full"><Link to="/Agendamento" className={styles.item}><FaRegListAlt />AGENDAMENTO</Link></li>
                             </ul>
                         </div>
                         {/* ----------------------------------------------------- */}
                         <div className={styles.card_btn_sair}>
-                            <button className={styles.btn_sair}>Sair</button>
+                                <button className={`w-full h-full`}><Link to="/Login" className={styles.item}>Sair</Link></button>
                         </div>
                         
                         

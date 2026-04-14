@@ -1,11 +1,10 @@
 .Conteiner{
-    width: 1200px;
+
+    width: 1200px;  
     flex-wrap: wrap;
-    height: 100dvb;
+    margin-left: 220px;
+    min-height: 800px;
+    word-wrap: break-word;
 
 }
-.min_altura{
-   
-    min-height: 700px;
-    
-}
+ 
